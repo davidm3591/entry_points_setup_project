@@ -28,14 +28,17 @@ entry_points_setup_project
     > ext_build
         > extract_build
             __pycache__
-            > __init__.py
+            
+            > __init__.py (empty, but have to have it make setup work)
+            
             > __main__.py
                     import sys
-                    from extract_startup import extract_open
-                    function: extract_open()
-            > extract_startup.py
-                    def extract_open():
-                    print("I fired from a call to extract_open() in __main__.py")
+                    from extract_startup import extract_open (this is the module/function to load gui)
+                    function: extract_open() (this is the function call to load gui in extraction_tool.py)
+            
+            > extract_startup.py (this file simulates extraction_tool.py with function that loads gui)
+                    def extract_open(): (this simulates a function wrappipng the tkinter code)
+                        print("I fired from a call to extract_open() in __main__.py")
         > .gitignore
         > chk_call_from_main.py
                 def test_extract_open():
@@ -45,7 +48,7 @@ entry_points_setup_project
 
                 setup(name='extract_build',
                       version='0.1.0',
-                      packages=['extract_build'],
+                      packages=['extract_build'], 
                       entry_points={
                           'console_scripts': [
                               'extract_build = extract_build.__main__:main'
