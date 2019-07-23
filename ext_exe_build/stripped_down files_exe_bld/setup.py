@@ -4,7 +4,8 @@ setup(name='extract_exe_build',
       version='0.1.0',
       packages=['extract_exe_build'],
       entry_points={
-          'console_scripts': [
+          # 'console_scripts': [
+          'gui_scripts': [
               'extract_exe_build = extract_exe_build.__main__:main'
           ]
       },
