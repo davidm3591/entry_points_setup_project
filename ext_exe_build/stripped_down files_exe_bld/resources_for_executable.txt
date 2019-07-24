@@ -1,0 +1,14 @@
+Resources For Executable
+wxPython
+
+
+(wxPython)
+(Py2Exe)
+(setup.py)
+https://python101.pythonlibrary.org/chapter40_py2exe.html
+
+(wxPython)
+https://realpython.com/python-gui-with-wxpython/
+https://www.tutorialspoint.com/wxpython/
+https://wiki.wxpython.org/How%20to%20Learn%20wxPython
+https://wxpython.org/
