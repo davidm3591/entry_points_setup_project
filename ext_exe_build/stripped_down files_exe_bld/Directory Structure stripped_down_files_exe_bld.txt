@@ -1,0 +1,19 @@
+Directory Structure stripped_down_files_exe_bld
+
+stripped_down_files_exe_build
+|
+|-- extract_exe_build
+|   |
+|   |-- __init__.py
+|   |
+|   |-- __main__.py
+|   |
+|   |-- extraction_out.py
+|   |
+|   |-- extraction_pptx.py
+|   |
+|   |-- extraction_tool.py
+|
+|-- cli.py
+|
+|-- setup.py
