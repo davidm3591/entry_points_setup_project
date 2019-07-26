@@ -5,9 +5,10 @@ This build is testing:
 
 Tools:
   1. Python 3.7.1
-  2. Windows 10
-  3. wxPython: https://wxpython.org/
-  4. Py2Exe:
+  2. virtualenv
+  3. Windows 10
+  4. wxPython: https://wxpython.org/
+  5. Py2Exe:
     - https://pypi.org/project/py2exe/
     - http://www.py2exe.org/
   
