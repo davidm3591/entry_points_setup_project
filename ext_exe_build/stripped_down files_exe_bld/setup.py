@@ -1,8 +1,22 @@
 from setuptools import setup
 
+# setup(name='extract_exe_build',
+#       version='0.1.0',
+#       packages=['extract_exe_build'],
+#       include_package_data=True,
+#       entry_points={
+#           # 'console_scripts': [
+#           'gui_scripts': [
+#               'extract_exe_build = extract_exe_build.__main__:main'
+#           ]
+#       },
+#       )
+
 setup(name='extract_exe_build',
       version='0.1.0',
       packages=['extract_exe_build'],
+      include_package_data=True,
+      # install_requires=["extract_exe_build.extraction_tool"],
       entry_points={
           # 'console_scripts': [
           'gui_scripts': [
@@ -10,16 +24,6 @@ setup(name='extract_exe_build',
           ]
       },
       )
-
-# setup(name='extract_build',
-#       version='0.1.0',
-#       packages=['extract_build'],
-#       entry_points={
-#           'console_scripts': [
-#               'extract_build = extract_build.__main__:main'
-#           ]
-#       },
-#       )
 
 # You must use setuptools, otherwise this won’t work.
 # The most important piece of code is the entry_points declaration (unsurprisingly).

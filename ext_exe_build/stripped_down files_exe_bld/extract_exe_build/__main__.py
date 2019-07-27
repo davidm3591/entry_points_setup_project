@@ -1,4 +1,6 @@
 import sys
+
+# Local app import
 from extraction_tool import extract_open
 
 

@@ -3,6 +3,8 @@ Resources For Executable
 PyInstaller
 https://realpython.com/pyinstaller-python/
 
+What the Virtualenv?! (5 day class)
+https://realpython.com/dependency-pitfalls/
 
 wxPython
 
