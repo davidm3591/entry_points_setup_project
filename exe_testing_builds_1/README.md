@@ -21,11 +21,12 @@ These instructions will get you a copy of the project up and running on your loc
 1. Build virtual environment
    * virtualenv exe_test_env_1
 2. Install/import requirements_exe_test_env_1.txt
-   * numpy==1.17.0
-   * Pillow==6.1.0
-   * py2exe==0.9.2.2
-   * six==1.12.0
-   * wxPython==4.0.6
+   * pip install -r requirements.txt
+     * (numpy==1.17.0)
+     * (Pillow==6.1.0)
+     * (py2exe==0.9.2.2)
+     * (six==1.12.0)
+     * (wxPython==4.0.6)
 
 
 Source: https://python101.pythonlibrary.org/chapter40_py2exe.html
