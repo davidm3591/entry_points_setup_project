@@ -1,4 +1,4 @@
-# Build Executable Build 2: Testing For Extraction Tool - Tkinter, pyinstaller
+# Build Executable Build 2: Testing For Extraction Tool - Tkinter, PyInstaller
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine.
